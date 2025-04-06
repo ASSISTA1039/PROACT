@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d4aa15b0ce3564c82f67a8f0a9b1d2, type: 3}
+  m_Name: Player_RunEndState
+  m_EditorClassIdentifier: 
+  isLoop: 2
+  RunEnd: {fileID: 11400000, guid: 03923b7cabb8fb54e933845eda0afe60, type: 2}

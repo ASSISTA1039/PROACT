@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e294c8c27b4c954bae2e9d646ecc504, type: 3}
+  m_Name: Combat_F_State
+  m_EditorClassIdentifier: 
+  _TargetSpeed: 0
+  isLoop: 0
+  Combat_F_Upper: {fileID: 11400000, guid: 35f6bdd89beb57746b07584ed895b6d4, type: 2}
+  Combat_F_StrongUpper: {fileID: 11400000, guid: ca057e8b03533d649b581c6c0ee8e455,
+    type: 2}
+  Combat_F_Down: {fileID: 11400000, guid: fbd81fa4503249b42893dc6cb66df492, type: 2}
+  player_JumpState: {fileID: 11400000, guid: e318c92a3813b3f4484c52eb2bbca48d, type: 2}
+  groundCheckDistance: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64f962720b88f74686c69257fa8255c, type: 3}
+  m_Name: Player_EvadeState
+  m_EditorClassIdentifier: 
+  _TargetSpeed: 0
+  isLoop: 2
+  EvadeFront: {fileID: 11400000, guid: 4dcc3543dfe009a47bc476ed105e2a60, type: 2}
+  EvadeBack: {fileID: 11400000, guid: d405b6fb61bbb0d48bb34fa80a32c6ad, type: 2}
+  EvadeCombat: {fileID: 11400000, guid: a22f9760eb5142443ba3ce13fec815f7, type: 2}
+  EvadeAir: {fileID: 11400000, guid: b4c79f805df5bb14ab4a3fa193bb3365, type: 2}
+  groundCheckDistance: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  MoveState: {fileID: 11400000, guid: 8514cb50a17fba04a9b638c5da609346, type: 2}

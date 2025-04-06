@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b5d6003acb98b4e9ec4c803cc87291, type: 3}
+  m_Name: Player_MoveState
+  m_EditorClassIdentifier: 
+  _TargetSpeed: 4
+  isLoop: 1
+  Move: {fileID: 11400000, guid: 6fc0e4218309e8b4bb0d3288f17b888e, type: 2}
+  Move_Clone: {fileID: 11400000, guid: a87e9c819cd539d4eaaac6da0bb6a06c, type: 2}
+  Run: {fileID: 11400000, guid: 36284aff971565c41afe9a0a76da4f5d, type: 2}
+  Run_Clone: {fileID: 11400000, guid: 5b6e1d645ce033e4baf9340345983c96, type: 2}
+  TurnBack: {fileID: 11400000, guid: 6ea43043e6b426c49a4eabec72ef6b24, type: 2}
+  playbackSpeed: 1.5
+  isRun: 0
+  targetAngle: 0
+  rotationTime: 0.24
